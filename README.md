@@ -1,6 +1,6 @@
 # 👁️‍🦾 **RaycastGrasp**  
 **RaycastGrasp: Eye-Gaze Interaction with Wearable Devices for Robotic Manipulation**  
-📄 [Paper Link](./RaycastGrasp%20Eye-Gaze%20Interaction%20with%20Wearable%20Devices%20for%20Robotic%20Manipulation.pdf)
+📄 [Paper Link](https://arxiv.org/abs/2510.22113)
 
 ---
 
