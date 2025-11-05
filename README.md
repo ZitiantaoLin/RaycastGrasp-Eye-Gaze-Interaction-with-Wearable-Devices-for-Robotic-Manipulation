@@ -51,3 +51,45 @@ When the user fixates on an object for ≥ 2 seconds, the system automatically r
 ### Step 1. Clone Repository
 ```bash
 git clone https://github.com/ZitiantaoLin/RaycastGrasp-Eye-Gaze-Interaction-with-Wearable-Devices-for-Robotic-Manipulation.git
+
+
+### Step 2. Open Project
+Open with **Unity 2022.3+**, and set the build platform to **Android**.
+
+---
+
+### Step 3. Enable Required Plugins
+In **Package Manager**, make sure the following modules are enabled:
+
+- [x] VIVE OpenXR Plugin v2.5.1  
+- [x] Eye Tracking  
+- [x] Passthrough  
+
+---
+
+### Step 4. Open Main Scene
+Assets/RaycastGrasp/Scenes/MainScene.unity
+
+---
+
+### Step 5. Run the System
+- Connect your **VIVE MR headset**.  
+- Click **Build & Run** or **Play** in the Unity editor.  
+- The gaze ray and hit point will appear in real-time, and gaze coordinates will be logged automatically.
+
+---
+
+## [4] Experiment & Results
+
+| Metric | Value / Observation |
+|---------|--------------------|
+| Gaze precision | 0.05 m |
+| YOLOv8 detection confidence | > 88% |
+| Grasping success rate | 100% (tested objects) |
+| System latency | < 100 ms |
+
+### Experiment Procedure
+1. The user fixates on a target object for ≥ 2 seconds.  
+2. The system captures a screenshot and logs the gaze coordinates.  
+3. YOLOv8 detects the target object from the user’s MR view.  
+4. The system maps the label to the robot’s view and triggers grasp execution.
