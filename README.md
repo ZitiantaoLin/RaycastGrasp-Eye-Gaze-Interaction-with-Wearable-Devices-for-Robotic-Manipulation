@@ -45,7 +45,6 @@ When the user fixates on an object for ≥ 2 seconds, the system automatically r
 | **Log Output** | `/sdcard/Download/gaze_log.txt` (timestamp, x, y, z, label) |
 
 ---
-
 ## [3] Quick Start
 
 ### Step 1. Clone Repository
@@ -53,8 +52,19 @@ When the user fixates on an object for ≥ 2 seconds, the system automatically r
 git clone https://github.com/ZitiantaoLin/RaycastGrasp-Eye-Gaze-Interaction-with-Wearable-Devices-for-Robotic-Manipulation.git
 ```
 
-### Step 2. Open Project
-Open with **Unity 2022.3+**, and set the build platform to **Android**.
+
+Step 2. Open Project
+
+Open Unity Hub.
+
+Click Add and select the cloned project folder
+RaycastGrasp-Eye-Gaze-Interaction-with-Wearable-Devices-for-Robotic-Manipulation.
+
+Open the project with Unity 2022.3+.
+
+In Unity, go to File > Build Settings....
+
+Select Android in the Platform list and click Switch Platform.
 
 ---
 
