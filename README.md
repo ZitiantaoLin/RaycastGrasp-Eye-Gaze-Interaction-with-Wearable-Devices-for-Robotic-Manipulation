@@ -51,7 +51,7 @@ When the user fixates on an object for ≥ 2 seconds, the system automatically r
 ### Step 1. Clone Repository
 ```bash
 git clone https://github.com/ZitiantaoLin/RaycastGrasp-Eye-Gaze-Interaction-with-Wearable-Devices-for-Robotic-Manipulation.git
-
+```
 
 ### Step 2. Open Project
 Open with **Unity 2022.3+**, and set the build platform to **Android**.
