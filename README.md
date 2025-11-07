@@ -124,5 +124,7 @@ If you find this work or its code useful for your research, please kindly cite t
       journal={IEEE Robotics and Automation Letters},
       year={2025}
 }
+```
 
-
+For questions or collaboration inquiries, please contact:
+📧 Email: lin.ziti@northeastern.edu
