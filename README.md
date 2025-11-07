@@ -53,7 +53,7 @@ git clone https://github.com/ZitiantaoLin/RaycastGrasp-Eye-Gaze-Interaction-with
 ```
 
 
-Step 2. Open Project
+### Step 2. Open Project
 
 Open Unity Hub.
 
