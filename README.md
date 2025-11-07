@@ -103,3 +103,26 @@ Assets/RaycastGrasp/Scenes/MainScene.unity
 2. The system captures a screenshot and logs the gaze coordinates.  
 3. YOLOv8 detects the target object from the user’s MR view.  
 4. The system maps the label to the robot’s view and triggers grasp execution.
+
+## License
+This project is released under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute this code for both academic and commercial purposes,  
+provided that the original copyright notice and permission notice are included in all copies or substantial portions of the Software.
+
+Copyright © 2025 Northeastern University.  
+All rights reserved.
+
+---
+
+## [5] Citation
+If you find this work or its code useful for your research, please kindly cite the following paper:
+
+```bibtex
+@article{lin2025raycastgrasp,
+      title={RaycastGrasp: Eye-Gaze Interaction with Wearable Devices for Robotic Manipulation},
+      author={Lin, Zitiantao and Sang, Yongpeng and Ye, Yang},
+      journal={IEEE Robotics and Automation Letters},
+      year={2025}
+}
+
+
